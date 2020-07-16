@@ -99,7 +99,7 @@ public class User extends DateAudit {
         this.password = password;
     }
 
-    public Set<Role> getRoles() {
+    public Set<Role>    getRoles() {
         return roles;
     }
 
